@@ -1,0 +1,53 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    max-height: 20vh; 
+    width: 100vw;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:visited{
+    color: white;
+}
+
+
+.brand-container, .menus-container {
+    border-bottom: 1px solid rgb(236, 135, 135);
+    min-height: 50%;
+    max-height: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo-container, .filter-container, .kart-container, .login-container {
+max-height: 100%;
+min-width: 25%;
+max-width: 25%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.logo{
+    max-height: 100%;
+    width: 60px;
+}
+
+
+.filter-input{
+    width: 100%;
+}
+
+.a-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33.3%;
+}
