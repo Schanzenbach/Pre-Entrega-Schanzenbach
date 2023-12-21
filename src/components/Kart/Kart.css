@@ -1,26 +1,18 @@
 .cart-container{
+    min-width:50%;
+    max-height: 50%;
     position: relative;
-    border: 1px solid white;
-    border-radius: 4px;
-    min-height: 50px;
-    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart-container p{
+    display: flex;
+    align-self: flex-start;
+    color: white;
+    background-color: rgb(172, 71, 71);
+}
+.kart-icon{
+    color: white;
 }
 
-.icon-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    
-}
-.cart-amount{
-    position: absolute;
-    top: 0;
-    right: 0;
-    border-radius: 4px;
-    height: 10%;
-    width: 8px;
-    text-align: center;
-    background-color: red;
-    color: white;
-}
